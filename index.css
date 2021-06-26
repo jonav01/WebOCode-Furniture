@@ -83,3 +83,28 @@
   .nav__links .nav__link:hover {
     transform: scale(1.1);
   }
+  .header__content {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--white-color);
+    text-align: center;
+  }
+  .header__content p {
+    margin: 2rem 0;
+    font-size: 1.8rem;
+  }
+  .header__content button {
+    opacity: 0;
+    animation: fadeButton 1s linear 1s forwards;
+  }
+  @keyframes fadeButton {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
