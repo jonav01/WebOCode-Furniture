@@ -70,3 +70,8 @@ run the project
 **The arrow icon on the bottom right corner of the screen allows you to directly navigate to the top of the page without scrolling**
 
 ---
+
+## Theme-Justification
+</br>
+
+### WoodHub gives a smooth enthralling experience to its users . It consists of all the information which the users require to fix their mind to buy the product . The smooth navigation inside the page also makes user experience better.
