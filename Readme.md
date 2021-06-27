@@ -45,7 +45,7 @@ run the project
 
 </br>
 
-<img src="assets\screenshots\ss2.PNG" alt="img-2">
+<img src="assets\screenshots\ss2.png" alt="img-2">
 
 **Hovering on any card will allow you to see a overlay consisting of buttons and cart icons**
 
@@ -57,7 +57,7 @@ run the project
 
 </br>
 
-<img src="assets\screenshots\ss3.PNG" alt="img-3">
+<img src="assets\screenshots\ss3.png" alt="img-3">
 
 **Hovering on any card will allow you to see a overlay consisting of data**
 
