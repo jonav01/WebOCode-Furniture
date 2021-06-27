@@ -4,11 +4,10 @@
 
 # _Tech Stack Used_
 
-## 1. HTML
+ 1. HTML
+ 2. CSS
 
-## 2. CSS
-
-## 3. JS
+ 3. JS
 
 ---
 
