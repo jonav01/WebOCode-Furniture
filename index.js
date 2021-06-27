@@ -8,8 +8,9 @@ window.addEventListener("scroll", (e) => {
 });
 
 const hamburger = document.querySelector(".hamburger__icon");
-const nav = document.querySelector(".navbar");
+const nav = document.querySelector(".navbar__container");
 hamburger.addEventListener("click", (e) => {
+  // console.log(nav)
   nav.classList.toggle("open");
 });
 

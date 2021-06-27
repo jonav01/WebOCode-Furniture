@@ -21,29 +21,56 @@
     />
   </head>
   <body>
+
+    <!-- HEADER  -->
     <div class="header" id="header">
       <nav class="navbar__container">
         <div class="navbar container">
           <div class="navbar__logo">
-            <img
-              src="./assets/categories/logo-white.png"
-              alt="logo"
-              class="logo"
-            />
-            <!-- <h1 class="logo">Logo</h1> -->
+              <img src="./assets/categories/logo-white.png" alt="logo" class="logo"/>
+            
             <button class="hamburger__icon"><i class="fas fa-bars"></i></button>
           </div>
           <div class="nav__links">
             <a href="#" class="nav__link">Home</a>
-            <a href="#products" class="nav__link">Products</a>
+             <a href="#products" class="nav__link">Products</a>
             <a href="#categories" class="nav__link">Categories</a>
-
+           
             <a href="#about" class="nav__link">About</a>
             <a href="#contact" class="nav__link">Contact</a>
           </div>
         </div>
       </nav>
-      <div class="header__content container">
+       <div class="navigation">
+			<input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+			<label for="navi-toggle" class="navigation__button">
+				<span class="navigation__icon">&nbsp;</span>
+			</label>
+			<div class="navigation__background">&nbsp;</div>
+			<nav class="navigation__nav">
+				<ul class="navigation__list">
+					<li class="navigation__item">
+						<a href="#" class="navigation__link"><span>01</span>Home</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#products" class="navigation__link"><span>02</span>Products</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#categories" class="navigation__link"
+							><span>03</span>Categories</a
+						>
+					</li>
+					<li class="navigation__item">
+						<a href="#about" class="navigation__link"><span>04</span>About</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#contact" class="navigation__link"><span>05</span>Contact Us</a>
+					</li>
+				</ul>
+			</nav>
+</div>
+
+<div class="header__content container">
         <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-offset="0">
           WoodHub
         </h1>
@@ -64,6 +91,11 @@
         </a>
       </div>
     </div>
+
+
+
+</div>
+
 
     <!-- Products -->
     <section class="products" id="products">
