@@ -57,3 +57,21 @@
     outline: none;
     padding: 0.5rem 1rem;
   }
+  .button_1 {
+    background: transparent;
+    border: 0.2rem solid #fff;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 3rem;
+    padding: 1rem 2.5rem;
+    transition: all 0.4s ease;
+}
+.button_1:hover {
+  background-color: #fff;
+  color: grey;
+}
+.container {
+  width: 90vw;
+  margin: auto;
+  max-width: 1250px;
+}

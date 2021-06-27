@@ -1,281 +1,485 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Furniture</title>
-        <link rel="stylesheet" href="index.css" />
-        <link rel="stylesheet" href="globals.css" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-          rel="stylesheet"
-        />
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-          integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw=="
-          crossorigin="anonymous"
-        />
-      </head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furniture</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <div class="header" id="header">
-        <nav class="navbar__container">
-          <div class="navbar container">
-            <div class="navbar__logo">
-                <img src="./assets/categories/logo-white.png" alt="logo" class="logo"/>
-              <!-- <h1 class="logo">Logo</h1> -->
-              <button class="hamburger__icon"><i class="fas fa-bars"></i></button>
+      <nav class="navbar__container">
+        <div class="navbar container">
+          <div class="navbar__logo">
+            <img
+              src="./assets/categories/logo-white.png"
+              alt="logo"
+              class="logo"
+            />
+            <!-- <h1 class="logo">Logo</h1> -->
+            <button class="hamburger__icon"><i class="fas fa-bars"></i></button>
+          </div>
+          <div class="nav__links">
+            <a href="#" class="nav__link">Home</a>
+            <a href="#products" class="nav__link">Products</a>
+            <a href="#categories" class="nav__link">Categories</a>
+
+            <a href="#about" class="nav__link">About</a>
+            <a href="#contact" class="nav__link">Contact</a>
+          </div>
+        </div>
+      </nav>
+      <div class="header__content container">
+        <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-offset="0">
+          Lorem ipsum dolor sit amet.
+        </h1>
+        <p
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+          data-aos-offset="0"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+          doloribus doloremque quam nihil itaque alias placeat, error vel dicta!
+          Vero?
+        </p>
+        <button class="button_1">Lorem, ipsum.</button>
+      </div>
+    </div>
+
+    <!-- Products -->
+    <section class="products" id="products">
+      <h2 data-aos="fade-up" data-aos-duration="200">Products</h2>
+      <div class="home__items__carousel">
+        <div class="carousel__cards" data-aos="fade-up" data-aos-duration="400">
+          <div class="cards__top">
+            <div class="card__item__image">
+              <img src="./assets/categories/sofa.jpg" alt="Products" />
             </div>
-            <div class="nav__links">
-              <a href="#" class="nav__link">Home</a>
-               <a href="#products" class="nav__link">Products</a>
-              <a href="#categories" class="nav__link">Categories</a>
-             
-              <a href="#about" class="nav__link">About</a>
-              <a href="#contact" class="nav__link">Contact</a>
+            <div class="cards__overlay">
+              <div class="overlay__items">
+                <div class="overlay__links">
+                  <a href="#" class="card__cart__link"
+                    ><i class="fas fa-shopping-cart"></i
+                  ></a>
+                  <a href="#" class="card__likes__link"
+                    ><i class="fas fa-heart"></i
+                  ></a>
+                  <a href="#" class="card__stats__link"
+                    ><i class="fas fa-chart-bar"></i
+                  ></a>
+                </div>
+                <button class="overlay__button">
+                  <i class="fas fa-search"></i>
+                  <p class="btn__text">Quick View</p>
+                </button>
+              </div>
             </div>
           </div>
-        </nav>
-        <div class="header__content container">
-          <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-offset="0">
-            Lorem ipsum dolor sit amet.
-          </h1>
-          <p
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-delay="200"
-            data-aos-offset="0"
+
+          <div
+            class="cards__description"
+            data-aos="fade-up"
+            data-aos-duration="800"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            doloribus doloremque quam nihil itaque alias placeat, error vel dicta!
-            Vero?
-          </p>
-          <button class="button_1">Lorem, ipsum.</button>
+            <p class="card__item__name">Printed Summer Dress</p>
+            <p class="card__item__rating">⭐⭐⭐⭐⭐</p>
+            <h4 class="card__item__price">
+              £ 19.68<span class="discount__price">£ 24.60</span>
+            </h4>
+          </div>
+        </div>
+
+        <div class="carousel__cards" data-aos="fade-up" data-aos-duration="400">
+          <div class="cards__top">
+            <div class="card__item__image">
+              <img src="./assets/categories/sofa.jpg" alt="Products" />
+            </div>
+            <div class="cards__overlay">
+              <div class="overlay__items">
+                <div class="overlay__links">
+                  <a href="#" class="card__cart__link"
+                    ><i class="fas fa-shopping-cart"></i
+                  ></a>
+                  <a href="#" class="card__likes__link"
+                    ><i class="fas fa-heart"></i
+                  ></a>
+                  <a href="#" class="card__stats__link"
+                    ><i class="fas fa-chart-bar"></i
+                  ></a>
+                </div>
+                <button class="overlay__button">
+                  <i class="fas fa-search"></i>
+                  <p class="btn__text">Quick View</p>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="cards__description"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            <p class="card__item__name">Printed Summer Dress</p>
+            <p class="card__item__rating">⭐⭐⭐⭐⭐</p>
+            <h4 class="card__item__price">
+              £ 19.68<span class="discount__price">£ 24.60</span>
+            </h4>
+          </div>
+        </div>
+
+        <div class="carousel__cards" data-aos="fade-up" data-aos-duration="400">
+          <div class="cards__top">
+            <div class="card__item__image">
+              <img src="./assets/categories/sofa.jpg" alt="Products" />
+            </div>
+            <div class="cards__overlay">
+              <div class="overlay__items">
+                <div class="overlay__links">
+                  <a href="#" class="card__cart__link"
+                    ><i class="fas fa-shopping-cart"></i
+                  ></a>
+                  <a href="#" class="card__likes__link"
+                    ><i class="fas fa-heart"></i
+                  ></a>
+                  <a href="#" class="card__stats__link"
+                    ><i class="fas fa-chart-bar"></i
+                  ></a>
+                </div>
+                <button class="overlay__button">
+                  <i class="fas fa-search"></i>
+                  <p class="btn__text">Quick View</p>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="cards__description"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            <p class="card__item__name">Printed Summer Dress</p>
+            <p class="card__item__rating">⭐⭐⭐⭐⭐</p>
+            <h4 class="card__item__price">
+              £ 19.68<span class="discount__price">£ 24.60</span>
+            </h4>
+          </div>
         </div>
       </div>
-
-      <!-- Products -->
-      <section class="products" id="products">
-        <h2 data-aos="fade-up" data-aos-duration="200">Products</h2>
-<div  class="home__items__carousel">
-				<div class="carousel__cards" data-aos="fade-up" data-aos-duration="400">
-					<div class="cards__top">
-						<div class="card__item__image">
-							<img src="./assets/categories/sofa.jpg" alt="Products" />
-						</div>
-						<div class="cards__overlay">
-							<div class="overlay__items">
-								<div class="overlay__links">
-									<a href="#" class="card__cart__link"
-										><i class="fas fa-shopping-cart"></i
-									></a>
-									<a href="#" class="card__likes__link"
-										><i class="fas fa-heart"></i
-									></a>
-									<a href="#" class="card__stats__link"
-										><i class="fas fa-chart-bar"></i
-									></a>
-								</div>
-								<button class="overlay__button">
-									<i class="fas fa-search"></i>
-									<p class="btn__text">Quick View</p>
-								</button>
-							</div>
-						</div>
-					</div>
-
-					<div class="cards__description" data-aos="fade-up" data-aos-duration="800">
-						<p class="card__item__name">Printed Summer Dress</p>
-						<p class="card__item__rating">⭐⭐⭐⭐⭐</p>
-						<h4 class="card__item__price">
-							£ 19.68<span class="discount__price">£ 24.60</span>
-						</h4>
-					</div>
-				</div>
-
-				<div class="carousel__cards" data-aos="fade-up" data-aos-duration="400">
-					<div class="cards__top">
-						<div class="card__item__image">
-							<img src="./assets/categories/sofa.jpg" alt="Products" />
-						</div>
-						<div class="cards__overlay">
-							<div class="overlay__items">
-								<div class="overlay__links">
-									<a href="#" class="card__cart__link"
-										><i class="fas fa-shopping-cart"></i
-									></a>
-									<a href="#" class="card__likes__link"
-										><i class="fas fa-heart"></i
-									></a>
-									<a href="#" class="card__stats__link"
-										><i class="fas fa-chart-bar"></i
-									></a>
-								</div>
-								<button class="overlay__button">
-									<i class="fas fa-search"></i>
-									<p class="btn__text">Quick View</p>
-								</button>
-							</div>
-						</div>
-					</div>
-
-					<div class="cards__description" data-aos="fade-up" data-aos-duration="800">
-						<p class="card__item__name">Printed Summer Dress</p>
-						<p class="card__item__rating">⭐⭐⭐⭐⭐</p>
-						<h4 class="card__item__price">
-							£ 19.68<span class="discount__price">£ 24.60</span>
-						</h4>
-					</div>
-				</div>
-
-				<div class="carousel__cards" data-aos="fade-up" data-aos-duration="400">
-					<div class="cards__top">
-						<div class="card__item__image">
-							<img src="./assets/categories/sofa.jpg" alt="Products" />
-						</div>
-						<div class="cards__overlay">
-							<div class="overlay__items">
-								<div class="overlay__links">
-									<a href="#" class="card__cart__link"
-										><i class="fas fa-shopping-cart"></i
-									></a>
-									<a href="#" class="card__likes__link"
-										><i class="fas fa-heart"></i
-									></a>
-									<a href="#" class="card__stats__link"
-										><i class="fas fa-chart-bar"></i
-									></a>
-								</div>
-								<button class="overlay__button">
-									<i class="fas fa-search"></i>
-									<p class="btn__text">Quick View</p>
-								</button>
-							</div>
-						</div>
-					</div>
-
-					<div class="cards__description" data-aos="fade-up" data-aos-duration="800">
-						<p class="card__item__name">Printed Summer Dress</p>
-						<p class="card__item__rating">⭐⭐⭐⭐⭐</p>
-						<h4 class="card__item__price">
-							£ 19.68<span class="discount__price">£ 24.60</span>
-						</h4>
-					</div>
-				</div>
-                </div>
     </section>
     <!-- Categories -->
     <div class="categories container" id="categories">
-        <h2 data-aos="fade-up">Categories</h2>
-        <div class="categories__container">
-          <div
-            class="categories__image"
-            data-aos="fade-up"
-            data-aos-duration="200"
-          >
-            <img src="./assets/categories/bed.jfif" alt="bed" />
-            <div class="catergories__imageText" data-aos="zoom-in">
-              <h3>Bed</h3>
-              <p>7 products</p>
-            </div>
+      <h2 data-aos="fade-up">Categories</h2>
+      <div class="categories__container">
+        <div
+          class="categories__image"
+          data-aos="fade-up"
+          data-aos-duration="200"
+        >
+          <img src="./assets/categories/bed.jfif" alt="bed" />
+          <div class="catergories__imageText" data-aos="zoom-in">
+            <h3>Bed</h3>
+            <p>7 products</p>
           </div>
-          <div
-            class="categories__image"
-            data-aos="fade-up"
-            data-aos-duration="400"
-          >
-            <img src="./assets/categories/table.jpg" alt="table" />
-            <div class="catergories__imageText">
-              <h3>Table</h3>
-              <p>6 products</p>
-            </div>
+        </div>
+        <div
+          class="categories__image"
+          data-aos="fade-up"
+          data-aos-duration="400"
+        >
+          <img src="./assets/categories/table.jpg" alt="table" />
+          <div class="catergories__imageText">
+            <h3>Table</h3>
+            <p>6 products</p>
           </div>
-          <div
-            class="categories__image"
-            data-aos="fade-up"
-            data-aos-duration="600"
-          >
-            <img src="./assets/categories/sofa.jpg" alt="sofa" />
-            <div class="catergories__imageText">
-              <h3>Sofa</h3>
-              <p>9 products</p>
-            </div>
+        </div>
+        <div
+          class="categories__image"
+          data-aos="fade-up"
+          data-aos-duration="600"
+        >
+          <img src="./assets/categories/sofa.jpg" alt="sofa" />
+          <div class="catergories__imageText">
+            <h3>Sofa</h3>
+            <p>9 products</p>
           </div>
-          <div
-            class="categories__image"
-            data-aos="fade-up"
-            data-aos-duration="800"
-          >
-            <img src="./assets/categories/lamp.jpg" alt="lamp" />
-            <div class="catergories__imageText">
-              <h3>Lamp</h3>
-              <p>8 products</p>
-            </div>
+        </div>
+        <div
+          class="categories__image"
+          data-aos="fade-up"
+          data-aos-duration="800"
+        >
+          <img src="./assets/categories/lamp.jpg" alt="lamp" />
+          <div class="catergories__imageText">
+            <h3>Lamp</h3>
+            <p>8 products</p>
           </div>
-          <div
-            class="categories__image"
-            data-aos="fade-up"
-            data-aos-duration="200"
-          >
-            <img src="./assets/categories/dining_table.jfif" alt="dining table" />
-            <div class="catergories__imageText">
-              <h3>Dining Table</h3>
-              <p>4 products</p>
-            </div>
+        </div>
+        <div
+          class="categories__image"
+          data-aos="fade-up"
+          data-aos-duration="200"
+        >
+          <img src="./assets/categories/dining_table.jfif" alt="dining table" />
+          <div class="catergories__imageText">
+            <h3>Dining Table</h3>
+            <p>4 products</p>
           </div>
-          <div
-            class="categories__image"
-            data-aos="fade-up"
-            data-aos-duration="400"
-          >
-            <img src="./assets/categories/accessories.jpg" alt="accessories" />
-            <div class="catergories__imageText">
-              <h3>Accessories</h3>
-              <p>7 products</p>
-            </div>
+        </div>
+        <div
+          class="categories__image"
+          data-aos="fade-up"
+          data-aos-duration="400"
+        >
+          <img src="./assets/categories/accessories.jpg" alt="accessories" />
+          <div class="catergories__imageText">
+            <h3>Accessories</h3>
+            <p>7 products</p>
           </div>
-          <div
-            class="categories__image"
-            data-aos="fade-up"
-            data-aos-duration="600"
-          >
-            <img src="./assets/categories/chair.jfif" alt="chair" />
-            <div class="catergories__imageText">
-              <h3>Chair</h3>
-              <p>6 products</p>
-            </div>
+        </div>
+        <div
+          class="categories__image"
+          data-aos="fade-up"
+          data-aos-duration="600"
+        >
+          <img src="./assets/categories/chair.jfif" alt="chair" />
+          <div class="catergories__imageText">
+            <h3>Chair</h3>
+            <p>6 products</p>
           </div>
-          <div
-            class="categories__image"
-            data-aos="fade-up"
-            data-aos-duration="800"
-          >
-            <img
-              src="./assets/categories/dressing-table.jpg"
-              alt="dressing table"
-            />
-            <div class="catergories__imageText">
-              <h3>Dressing Table</h3>
-              <p>3 products</p>
-            </div>
+        </div>
+        <div
+          class="categories__image"
+          data-aos="fade-up"
+          data-aos-duration="800"
+        >
+          <img
+            src="./assets/categories/dressing-table.jpg"
+            alt="dressing table"
+          />
+          <div class="catergories__imageText">
+            <h3>Dressing Table</h3>
+            <p>3 products</p>
           </div>
         </div>
       </div>
-       <!-- About  -->
+    </div>
+    <!-- About  -->
     <div class="about" id="about">
       <h2 data-aos="fade-up" data-aos-duration="200">About</h2>
-     <div  class="about__content">
-        
-         <img class="about__image" data-aos="fade-up" data-aos-duration="800" src="./assets/categories/dressing-table.jpg" alt="dressing-table"/>
-    <div data-aos="fade-up" data-aos-duration="800" class="about__para">     <h4 > Dresssing Table</h4> <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium maxime eligendi error explicabo atque illum molestiae earum saepe tempore, reprehenderit ipsa eaque corrupti aliquam sint perspiciatis a! Voluptate enim suscipit voluptates aperiam accusamus dolores, quam blanditiis provident quo veritatis mollitia ut dolor nostrum aut nobis fugiat perferendis explicabo consequuntur et!</p></div>
-        
+      <div class="about__content">
+        <img
+          class="about__image"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          src="./assets/categories/dressing-table.jpg"
+          alt="dressing-table"
+        />
+        <div data-aos="fade-up" data-aos-duration="800" class="about__para">
+          <h4>Dresssing Table</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
+            maxime eligendi error explicabo atque illum molestiae earum saepe
+            tempore, reprehenderit ipsa eaque corrupti aliquam sint perspiciatis
+            a! Voluptate enim suscipit voluptates aperiam accusamus dolores,
+            quam blanditiis provident quo veritatis mollitia ut dolor nostrum
+            aut nobis fugiat perferendis explicabo consequuntur et!
+          </p>
+        </div>
+      </div>
+    </div>
 
-     </div>
-
- </div>
+    <!-- CONTACT  -->
+    <div class="contact__section container" id="contact">
+      <div class="contact__form">
+        <h2 data-aos="fade-up" data-aos-duration="200">Contact Us</h2>
+        <form>
+          <div data-aos="fade-up" data-aos-duration="400">
+            <input type="text" placeholder="Your Name" />
+          </div>
+          <div data-aos="fade-up" data-aos-duration="600">
+            <input type="email" placeholder="Email" />
+          </div>
+          <div data-aos="fade-up" data-aos-duration="800">
+            <textarea placeholder="Message"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="location">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1717.0043844014872!2d72.83259527199263!3d19.021937754544755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cec6103a259d%3A0x48062852a596f573!2sIndu%20Mill%20Compound%2C%20SVS%20Rd%2C%20Chandrakant%20Dhuru%20Wadi%2C%20Dadar%2C%20Mumbai%2C%20Maharashtra%20400028!5e0!3m2!1sen!2sin!4v1624306234523!5m2!1sen!2sin"
+          width="100%"
+          height="410"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          data-aos="fade-up"
+          data-aos-duration="600"
+        ></iframe>
+      </div>
+    </div>
+    <!-- FOOTER  -->
+    <footer>
+      <div class="footer__container container">
+        <div class="footer__contentLeft">
+          <h1 data-aos="fade-up" data-aos-duration="200" data-aos-offset="0">
+            Logo
+          </h1>
+          <p data-aos="fade-up" data-aos-duration="300" data-aos-offset="0">
+            <i class="fas fa-map-marker-alt"></i>&nbsp; Mumbai
+          </p>
+          <p data-aos="fade-up" data-aos-duration="400" data-aos-offset="0">
+            <i class="far fa-envelope"></i>&nbsp; sample@email.com
+          </p>
+          <p data-aos="fade-up" data-aos-duration="500" data-aos-offset="0">
+            <i class="fas fa-phone-alt"></i>&nbsp; +91 9669966969
+          </p>
+          <div class="social">
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-duration="400"
+              data-aos-offset="0"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-offset="0"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-offset="0"
+            >
+              <i class="fab fa-tumblr"></i>
+            </a>
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-offset="0"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer__contentMiddle">
+          <a
+            href="#"
+            data-aos="fade-up"
+            data-aos-duration="200"
+            data-aos-offset="0"
+            >Home</a
+          >
+          <a
+            href="#"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-offset="0"
+            >Products</a
+          >
+          <a
+            href="#"
+            data-aos="fade-up"
+            data-aos-duration="400"
+            data-aos-offset="0"
+            >Contact</a
+          >
+          <a
+            href="#"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-offset="0"
+          >
+            About</a
+          >
+        </div>
+        <div class="footer__contentMiddle">
+          <a
+            href="#"
+            data-aos="fade-up"
+            data-aos-duration="200"
+            data-aos-offset="0"
+            >Home</a
+          >
+          <a
+            href="#"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-offset="0"
+            >Products</a
+          >
+          <a
+            href="#"
+            data-aos="fade-up"
+            data-aos-duration="400"
+            data-aos-offset="0"
+            >Contact</a
+          >
+          <a
+            href="#"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-offset="0"
+          >
+            About</a
+          >
+        </div>
+        <div class="footer__contentRight">
+          <a
+            href="#"
+            data-aos="fade-up"
+            data-aos-duration="200"
+            data-aos-offset="0"
+            >Link1</a
+          >
+          <a
+            href="#"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-offset="0"
+            >Link2</a
+          >
+          <a
+            href="#"
+            data-aos="fade-up"
+            data-aos-duration="400"
+            data-aos-offset="0"
+            >Link3</a
+          >
+          <a
+            href="#"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-offset="0"
+            >Link4</a
+          >
+        </div>
+      </div>
+      <p class="copyright">&copy; 2021 Name, All Rights Reserved</p>
+    </footer>
 
     <!-- Scripts  -->
     <script src="./index.js"></script>
@@ -285,5 +489,5 @@
         easing: "easing",
       });
     </script>
-</body>
+  </body>
 </html>
