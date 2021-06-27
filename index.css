@@ -65,7 +65,7 @@
     justify-content: space-between;
     align-items: center;
     height: 10vh;
-    padding: 20px;
+    
   }
   .navbar .logo {
     color: var(--white-color);
@@ -403,4 +403,96 @@ footer {
   color: var(--white-color);
   padding: 1.5rem 0;
   border-top: 0.2rem solid #524a4d;
+}
+.footer__contentLeft>img
+{
+  margin-bottom: 20px;
+}
+/* RESPONSIVE */
+@media (max-width: 888px) {
+  .contact__section {
+    display: block;
+  }
+  .contact__form {
+    margin-bottom: 7rem;
+  }
+  .home__items__carousel
+  {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: repeat(1,3fr);
+    width: 70vw;
+    align-items: center;
+    padding: 10em;
+  }
+  .about__content
+  {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(1,3fr);
+  }
+}
+
+@media (max-width: 786px) {
+  .hamburger__icon {
+    display: block;
+    padding: 0;
+    background: transparent;
+    display: grid;
+    place-items: center;
+    color: var(--white-color);
+    border: none;
+    font-size: 3rem;
+    z-index: 2;
+  }
+  .navbar__container {
+    position: relative;
+  }
+  .navbar__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+  }
+  .navbar__logo h1 {
+    z-index: 99;
+  }
+  .navbar {
+    display: block;
+    /* clip-path: circle(100px at 90% -10%);
+    -webkit-clip-path: circle(100px at 90% -10%); */
+    transition: all 1s ease-out;
+    overflow: hidden;
+  }
+  /* .navbar.open {
+    clip-path: circle(1000px at 90% -10%);
+    -webkit-clip-path: circle(1000px at 90% -10%);
+    pointer-events: all;
+  } */
+  .navbar.open body {
+    overflow: hidden;
+  }
+  .nav__links {
+    background-color: black;
+    display: none;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .nav__links .nav__link {
+    display: block;
+    margin-left: 0;
+  }
+
+  /* FOOTER */
+  .footer__container {
+    flex-direction: column;
+    padding: 4rem;
+  }
+  .footer__contentRight,
+  .footer__contentMiddle {
+    margin-top: 4rem;
+  }
 }
