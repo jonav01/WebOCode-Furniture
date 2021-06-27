@@ -31,7 +31,7 @@ run the project
 
 </br>
 
-<img src="assets\screenshots\ss1PNG" alt="img-1">
+<img src="assets\screenshots\ss1.PNG" alt="img-1">
 
 **Clicking on any of the above links will directly get you to the required Section**
 
@@ -45,7 +45,7 @@ run the project
 
 </br>
 
-![img-2](assets\screenshots\ss2.png)
+<img src="assets\screenshots\ss2.PNG" alt="img-2">
 
 **Hovering on any card will allow you to see a overlay consisting of buttons and cart icons**
 
@@ -57,7 +57,8 @@ run the project
 
 </br>
 
-![img-3](assets\screenshots\ss3.png)
+<img src="assets\screenshots\ss3.PNG" alt="img-3">
+
 **Hovering on any card will allow you to see a overlay consisting of data**
 
 </br>
