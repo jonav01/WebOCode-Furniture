@@ -4,10 +4,10 @@
 
 # _Tech Stack Used_
 
- 1. HTML
- 2. CSS
+1.  HTML
+2.  CSS
 
- 3. JS
+3.  JS
 
 ---
 
@@ -31,7 +31,7 @@ run the project
 
 </br>
 
-![img-1](assets\screenshots\ss1.PNG)
+<img src="assets\screenshots\ss1PNG" alt="img-1">
 
 **Clicking on any of the above links will directly get you to the required Section**
 
